@@ -1,0 +1,807 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+}
+.nav{
+    position: fixed;  
+    height: auto;
+    width:100%;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+    background-color: #ffffff;
+    width:100%;
+    height: auto;
+    z-index:1;
+  box-shadow:   0 0 15px 0 rgba(0,0,0,.05);
+}
+.menu{
+    position:relative;
+}
+.logo img{
+    height:auto;
+    width:130px;
+    position:absolute;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+.nav .menu ul{
+    height: auto;
+    width:46rem;
+    margin-left: 600px;
+    display: flex;
+    float: right;
+  flex-direction:row ;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.nav .menu ul li{
+ list-style-type: none;
+ border:none;
+ }
+.nav .menu ul li .btn_1 {
+    height:3.5rem;
+    width:12rem;
+    background-color: #6674CC;
+    color:#ffffff;
+    font-size: 1.3rem;
+    font-weight: 550;
+    position: relative;
+    font-family: "Inter";
+   text-align: center;
+    border-radius: 9px;
+    border:none;
+}
+.nav .menu a,p{
+    text-decoration: none;
+    color: #262626;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.menu a .signup{
+    color:#6674CC;
+    height:3rem;
+    width:7rem;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-weight: 600;
+        border: 3px solid #6674CC;
+}
+.menu p i{
+    font-size: 0.7rem;
+    opacity: 0.7;
+  margin:0 0.3rem;
+}
+.section{
+    height:auto;
+    position:relative;
+    width:100%;
+   background-color: #ffffff ;
+    padding-top: 1rem;
+    padding-bottom: 2.85rem;
+    
+}
+.section .section-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    padding-top: 2rem; height:auto;
+}
+.section .content h1{
+    font-weight: bold;
+    font-size: 3.75rem;
+    font-family: "Barlow";
+    text-align: start;
+    line-height: 1.55;
+    margin-left: 0;
+}
+.section .content{
+   width:45rem;
+    margin-left:2.75rem;
+    margin-top:10rem;
+
+}
+.content h5{
+    font-size: 1.8rem;
+    letter-spacing: 0;
+  font-family: "Inter";
+  font-weight: 200;  
+color: rgb(119, 124, 133,0.9);
+font-weight: 400;
+margin-top: -65px;
+text-align: start;
+line-height: 2.75rem;
+} 
+.content button{
+    background-color: #6674CC;
+    color:white;
+    height:4.6rem;
+    width:20rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: relative;
+    font-family: "Inter";
+   text-align: center;
+   justify-content: center;
+   border-color: transparent;
+   border-radius: 14px;
+   margin:4rem 0 3rem 0;
+}
+
+.section .video .screen{
+    position: relative;
+    height:25rem;
+    width:40rem;
+    background-image: url("https://cdn.mycourse.app/v3.4.13/images/laptop-black-realistic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    margin-right: 2rem;
+}
+/* courses information */
+.course-container{
+    position: relative;
+    height: auto;
+    width:100%;
+    background-color: #f8f8fd;
+    padding: 6rem 0 6rem 0;
+}
+.course-container h3{
+    color:#6674CC;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+.course-container #id2{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.55;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    font-family: "Inter";
+
+}
+.course-info{
+   position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+
+}
+.course-info .delta-batch ,.sigma-batch{
+    border:1px solid #bfbaba;
+    border-radius: 20px;
+    height:45rem;
+    width:27rem;
+    position:relative;
+    margin-top:1rem;
+    margin-left: 1.5rem;
+
+}.course-info .sigma-batch{
+    background-color: #ffffff;
+}
+.course-info .batch h2 {
+    font-size:1.65rem;
+    margin-top: 1.5rem; font-family: "Barlow";
+    line-height:1.4;
+}
+.course-info .batch #id1 {
+    font-size:1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.batch li  p{
+    font-size: 1.25rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+     
+}
+.course-info .batch li{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  margin-top: 0.8rem; 
+
+}
+.course-info .batch{
+    margin-left: 1.5rem;
+}
+.course-info .batch i{
+   font-size: 1.2rem;
+   margin-right: 1rem;
+  
+}
+.course-info .delta-batch i{
+    color: #6674CC;
+}
+.course-info .sigma-batch i{
+    color: #8bc34a;
+}
+.batch button{
+    height:4.5rem;
+    width:14rem;
+    border-radius: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-color: transparent;
+    position:relative;
+}
+.delta-batch button{
+    background-color: #262626;
+    color:#ffffff;
+   margin-top: 7.5rem;
+}
+.sigma-batch button{
+    background-color:#616fcb;
+    color: #ffffff;  
+     margin-top: 4.9rem;
+
+}
+.sigma-batch .batch button i{
+    font-size: 1.3rem;
+   color: #ffffff;
+   margin-left: 0.8rem;
+   font-weight: 900;
+
+}
+
+.banner-box{
+    height: 28rem;
+    background-image:url(https://cdn.mycourse.app/v3.2.1/images/sunbeams-dark.png);
+background-size: cover;
+background-color: #6674CC;
+border-color: #6674CC;
+background-repeat: no-repeat;
+background-position: 50%;
+
+}
+.banner-box .banner-content{
+    padding:1.95rem 0 2rem 0;
+    display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.banner-box .class1 p{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-top:2.5rem;
+}
+.banner-content .head p{
+    font-size: 2.2rem;
+  font-weight: bolder; font-family: "Barlow";
+}
+.banner-box .start-date p{
+    text-transform: none;
+    }
+.banner-content button{
+        height: 4.3rem;
+        width:13rem;
+        color:#262626;
+        font-size:1.6rem;
+        border-radius: 15px;
+        font-weight: 900;
+        border:none;
+        margin-top:2.5rem;
+}
+    .banner-content button i{
+        font-size: 1.4rem;
+        font-weight: 900;
+        padding-left:0.5rem;
+    }
+
+    /* curriculum */
+    .curriculum-container{
+        position:relative;
+        height:45rem;
+        width:100%;
+        padding:6rem 0 9rem 0;
+
+    }
+    .curriculum-container h2{
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-family: "Barlow";
+        font-weight:bolder;
+        text-align: center;
+    }
+    .curriculum-container .curriculum{
+        margin:2rem 2.2rem 3rem 2.2rem;
+    }
+    .curriculum-container .curriculum p{
+      font-size: 1.4rem; 
+      letter-spacing: 0.3px;  
+      margin-bottom: 0.5rem; 
+     font-weight: normal;
+
+}
+.curriculum .cont{
+    background-color: #f8f8fd;
+    height:auto;
+    width:100%;
+    margin-bottom: 0.8rem;
+    border-radius: 1.2rem;
+
+}
+.curriculum .cont p{
+font-weight: 800;
+padding:1.7rem 0 1.4rem 1.7rem;
+}
+.company{
+    width:100%;
+    height: auto;
+    background-position: cover;
+    background-color: #f8f8fd;
+    position:relative;
+}
+.company-box p {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    opacity:0.9;
+    font-family: "Barlow";
+
+}
+.company .company-box{
+    width:100%;
+    padding-top:7rem;
+}
+ .clogo .line p{
+   
+    font-size: 1.75rem;
+    opacity: 0.6;
+    margin:1rem 0 5rem 0;
+
+}
+.box1  ,.box2,.box3{
+    margin-bottom: 2.5rem;
+}
+.company .clogo{
+    display:flex;
+    position:relative;
+    height: auto;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 2.25rem 1.5rem 1.25rem 1.5rem;
+}
+.company .clogo img{
+    height:6rem;
+    width:9rem;
+    margin:0 2.7rem 0 2.7rem;
+    position:relative;
+
+
+}
+
+
+/* Library section */
+.library-content{
+    position:relative;
+    width:100%;
+}
+.library-content .circle{
+    height:21rem;
+    width:23rem;
+    background-color: #ffc107;
+    position:absolute;
+    display: inline-block;
+   left:-165px;
+   z-index:-1;
+ top:-210px;
+    border-radius:50%;
+
+}
+.library-box{
+    position: relative;
+   align-items: stretch;
+ padding-top: 13rem;
+ padding-left: 0.5rem;
+ padding-right: 1.15rem;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    }
+.library-box .lib1 , .lib2{
+    width:40rem;
+    height: auto;
+    
+}
+ .library-box .lib1{
+   padding:0 0 0 2rem;
+   letter-spacing: 0.4px;
+   
+}
+.library-box .lib2{
+    margin: 1.75rem 0 0 0;
+
+}
+.library-content .library-box .lib1 h1{
+text-transform: uppercase;
+font-size: 2.3rem;
+font-weight: 900;
+letter-spacing: 0rem;
+font-family: "Barlow";    
+line-height: 1.2;
+}
+.library-box .lib1 p{
+    font-size:1.38rem;
+    font-family: "Inter";
+    line-height: 1.55;
+    font-weight: normal;
+
+}
+.library-content .library-box .lib2 img{
+    height:23rem;
+  }
+.lib-company{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top:2.5rem;
+    
+}
+.library-content .lib-company img{
+    height:auto;
+    width:11rem;
+}
+.lib-company #img1{
+    height: 3rem;
+    width:auto;
+}
+.library-content button{
+    background-color: #262626;
+    color:white;
+    height:4.4rem;
+    width:17rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: relative;
+    font-family: "Inter";
+   text-align: center;
+   display:inline-flex;
+   justify-content: center;
+    align-items: center;
+   border-radius: 2px;
+   border-radius: 14px;
+   margin:4rem 0 6rem 1.2rem;
+}
+.btn1 i{
+    margin-left: 0.6rem;
+}
+
+/* teacher-section */
+.instructor{
+    height: 40rem;
+    width: 100%;
+    background-color: #f8f8fd;
+    padding-top: 2.5rem;
+}
+.instructor .instructor-img{
+    height: 17rem;
+    width:17rem;
+    background-image:url("https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/e142386786609dc1556426086b5b9b90.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    background-position: 50%;
+}
+.instructor-box{
+    margin-left:42%;
+    text-transform: uppercase;
+    font-family: "Inter";
+}
+.instructor-box .text p{
+    color:#6674CC;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding:2rem 0 0 5rem;
+
+}
+.instructor-box .name p{
+    font-size: 1.55rem;
+    padding:1rem 0 0 1rem;
+    font-weight: bolder;
+}
+.instructor-service{
+    width:100%;
+    height:auto;
+    margin-top:1.85rem;
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+}
+.instructor-service p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Inter";
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+.ser1 ,.ser2{
+    height:auto;
+    width:400px;
+}
+.instructor-service .ser1 img{
+    height:130px;
+    width:130px;
+padding-top: 0px; 
+margin-top:-32px;
+margin-left: 120px;
+}
+.ser2 img{
+    height:60px;
+    width:60px;text-align: center;
+    margin:0 0  0 180px;
+}
+.ser3 img {
+    margin:0 0  0 175px;
+}
+
+/* certification-section */
+.certify{
+    height: auto;
+    width:100%;
+    padding-top:8rem;
+}
+
+.certify-cont1{
+    height:auto;
+    width:55%;
+}
+.certify .certify-head p{
+    font-size:3.85rem ;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0rem;
+    font-family: "Barlow";
+}
+.certify-cont1 .cont .certify-sen  span{
+   font-size: 1.4rem;
+   line-height: 2.3rem;
+   letter-spacing: 0.5px;
+}
+.certify-sen p{
+   font-weight: bolder;
+   font-size: 1.4rem;
+   letter-spacing: 0.5px;
+   
+}
+
+.certify .certify-body{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    position:relative;
+    margin-top: 2.7rem;
+}
+.certify-cont1 .cont i{
+    font-size: 2.3rem;
+    margin:0 1.75rem 0 1.75rem;
+    color: #616fcb;
+
+}
+.certify .cont{
+    display:flex;
+    margin-top:2rem;
+}
+.certify-cont2{
+    margin-right:2.5rem;    padding: 0.5rem 0 1rem 0;
+
+}
+.certify-cont2 p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.certify .certify-cont2 img{
+    height:24rem;
+    width:34rem;
+    flex-shrink: 2;
+    margin-top: 0.5rem;
+}
+.certify .certify-cont1 button{
+    height: 4.3rem;
+    width:16rem;
+    background-color: #6674CC;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: "Inter";
+    margin: 2rem 0 0 5rem;
+    border-radius: 14px;
+    border-color: transparent;
+}.certify-cont1 button i{
+    font-size: 1.3rem;
+    margin-left: 0.2rem;
+    font-weight: bolder;
+}
+.freq-que{
+    position: relative;
+    height:auto;
+    width:100%;
+}
+.freq-head{
+    height: 18rem;
+    background-color: #f8f8fd;
+}
+.freq-head h1,h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.freq-head h1{
+    font-weight:bolder;
+font-size: 2rem;
+padding:6rem 0 2rem 0;
+}
+.freq-head h3{
+    font-weight:700;
+font-size: 1.35rem;
+padding:2rem 0 0.1rem 0;
+}
+.freq-doubt .ques{
+    height: 7rem;
+    display:flex;
+    flex-direction: row;
+    border-bottom:1px solid #ddd ;
+    
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.ques p{
+    font-size:1.45rem;
+    font-weight: bolder;
+    margin:0 0 0 2.5rem;
+}
+.ques i{
+    font-size: 1.4rem;
+    margin-right:2.5rem
+    }
+.generaldoubt {
+    width:100%;
+}
+.generaldoubt .general-head {
+    height: 8rem;
+    background-color:#f8f8fd;
+   
+}
+.general-head h3{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 600;
+    padding:5rem 0 1rem 0;
+}
+.generaldoubt .doubt{
+    height: 7rem;
+    display:flex;
+    flex-direction: row;
+    border-bottom:1px solid #ddd ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.doubt p{
+    font-size:1.45rem;
+    font-weight: bolder;
+    margin:0 0 0 2.5rem;
+}
+.doubt i{
+font-size: 1.4rem;
+margin-right:2.5rem
+}
+.general-space{
+    background-color:#f8f8fd;
+height:6rem;
+width:100%;
+}
+.footer{
+    height: 28rem;
+    width:100%;
+   font-style: normal;
+   position: relative;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul a{
+    text-decoration: none;
+color:#262626;
+}
+.footer .foot-content{
+    display:flex;
+    flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+padding:80px 0 80px 0;
+flex-wrap: wrap;
+}
+.footer .foot-box img{
+    height:auto;
+    width:100px;
+}
+.footer .foot-box{
+    width:300px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter";
+    letter-spacing: 0;
+
+}
+.foot-box h3{
+    font-weight: bold;
+    font-size: 1.40rem;
+    line-height: 1.4;
+    text-align: start;
+}
+.foot-links{
+    margin:2rem 0 0 0;
+    line-height: 2.3rem;
+    align-items:flex-start;
+}
+.foot-links li,p{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.foot-links li {
+    letter-spacing: 0.03rem;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.foot-box p{
+    font-size:1.4rem ;
+    opacity: 0.9;
+}
+.icon2 li i{
+    color:#243181;
+    font-size: 1.4rem;
+    margin-right: 0.3rem;
+   
+    align-self: center;
+}
+.icon2 li{
+    font-size: 1.4rem;
+}
+.icon3 li i{
+    line-height: 2rem;
+    margin-left:0.5rem;
+}
+.icon1 i{
+    color:#6674CC;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-right:1.75rem;
+    align-self: center;
+}
+.footer .copyright{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}.footer .copyright i{
+    font-size: 1rem;
+    padding-left:0.4rem;
+    padding-right:0.3rem;
+}
+
