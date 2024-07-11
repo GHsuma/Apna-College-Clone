@@ -1,2 +1,2 @@
 # Apna-College-Clone
-This is clone of apna college of sigma batch using Html &amp; Css
+This is clone of sigma batch of Apna college (front end).
